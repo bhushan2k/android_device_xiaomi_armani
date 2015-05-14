@@ -165,3 +165,5 @@ TARGET_USES_QCOM_WCNSS_QMI := true
 
 # inherit from the proprietary version
 -include vendor/xiaomi/armani/BoardConfigVendor.mk
+BOARD_USERDATAEXTRAIMAGE_PARTITION_SIZE := 59914792960
+BOARD_USERDATAEXTRAIMAGE_PARTITION_NAME := 64G
